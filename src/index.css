@@ -5,3 +5,27 @@ body {
   background-image: url('./images/sw-bg.jpg');
   background-size: cover;
 }
+
+.charContainer{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
+  background-color: black;
+  border: 10px blue;
+  margin: 8px;
+  padding: 8px;
+  border-style: solid;
+  border-color: pink;
+  border-radius: 25px;
+}
+
+.charsContainer{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  
+}
